@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Syncopate&display=swap');
+/* common font  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+}
+
+/* common font end */
+
+
+
+
+.title{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    margin-left: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-orange{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color:#FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+button > a {
+    color: white;
+}
