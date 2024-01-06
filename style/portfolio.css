@@ -2,14 +2,20 @@
 /* common font  */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Syncopte', sans-serif;
 }
-
+section .about{
+    
+}
 /* common font end */
 
+.container{
+    margin: 0 200px;
+}
 
-
-
+.header{
+    background-color: #FFF8F3;
+}
 .title{
     color: #181818;
     font-weight: 800;
@@ -18,7 +24,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    
 }
 nav ul {
     list-style: none;
@@ -44,11 +50,46 @@ nav a {
     background-color:#FD6E0A;
     border: none;
     border-radius: 5px;
-    padding: 18px;
+    padding: 10px 18px;
     color: white;
     font-size: 20px;
     font-weight: 700;
 }
 button > a {
     color: white;
+}
+
+header .header-banner{
+    display: flex;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+    justify-content: space-between;
+    margin-left: 200px;
+    align-items: center; 
+}
+header .banner{
+    width: 550px;
+}
+.bannaer-img > img{
+   width: 584px;
+   
+}
+h3.gerding{
+    font-size: 45px;
+    font-weight: 700;
+    color: #474747;
+    margin: 0;
+}
+h1.baner-tittle{
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    margin: 0;
+}
+p.banner-details{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    
 }
